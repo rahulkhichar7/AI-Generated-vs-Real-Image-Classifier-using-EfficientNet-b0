@@ -1,1 +1,0 @@
-# AI-Generated-vs-Real-Image-Classifier-using-EfficientNet-b0
