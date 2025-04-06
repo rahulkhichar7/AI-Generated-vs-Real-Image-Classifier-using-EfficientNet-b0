@@ -37,6 +37,7 @@ The task was to develop a robust and explainable deep learning model capable of 
 | Model Used           | EfficientNet-B0 |
 | Explainability Tool  | Grad-CAM      |
 
+Kaggle Leaderboard : https://www.kaggle.com/competitions/hack-rush-deep-fake-detection/leaderboard
 ---
 
 ## 🗂️ Repository Structure
@@ -44,17 +45,16 @@ The task was to develop a robust and explainable deep learning model capable of 
 ```
 ├── Final_Model_Code.ipynb        # Notebook containing full training & evaluation pipeline
 ├── HackRush Report.pdf           # Technical report with methodology, explainability, and analysis
-├── final_submission.csv          # CSV file submitted for evaluation
+├── final_submissions            # CSV files submitted for evaluation
 ├── GradCAM Visualizations/       # Heatmaps showing model attention regions
 ├── models/                       # Saved model weights
-├── test_scripts/                 # Jupyter notebooks for testing and visualization
 ```
 
 ---
 
 ## 📷 Explainability Example
 
-![GradCAM Examples](./GradCAM_Examples.png)
+![GradCAM Examples]- See in report
 
 > Grad-CAM helps confirm that the model learns interpretable patterns, focusing on textures and semantic objects in real images while detecting irregularities in AI-generated ones.
 
