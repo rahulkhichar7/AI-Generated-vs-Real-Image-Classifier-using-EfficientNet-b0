@@ -1,4 +1,5 @@
 ## 🧠 AI-Generated vs Human-Generated Image Classifier
+Kaggle Compitition Link: https://www.kaggle.com/competitions/hack-rush-deep-fake-detection/leaderboard
 
 This repository contains the complete solution for the HackRush Deep Fake Detection Challenge, where the objective was to build a robust, explainable model to distinguish AI-generated images from real, human-generated ones. The final model, based on EfficientNet-B0, achieved a test accuracy of **89.3%** and is accompanied by a detailed technical report and supporting files.
 
