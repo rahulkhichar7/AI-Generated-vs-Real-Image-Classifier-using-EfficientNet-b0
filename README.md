@@ -78,13 +78,14 @@ EfficientNet-B0 outperformed all other models, demonstrating strong generalizati
 ## Repository Structure
 
 ```
-├── Best_model_selection.ipynb         # Model selection and comparison notebook
-├── Efficientnet_Training.ipynb        # EfficientNet-B0 training pipeline
-├── best_model_4_epoch_8_train_98...   # Model checkpoint or log
-├── Final submission csv file.csv       # Final predictions for submission
-├── Final_model_training_&predictio...  # Final training and inference notebook
-├── HackRush Report.pdf                # Technical report with methodology and analysis
-├── README.md                          # Project documentation (this file)
+├── Best_model_selection.ipynb                        # Model selection and comparison notebook
+├── Efficientnet_Training.ipynb                       # EfficientNet-B0 training pipeline
+├── best_model_4_epoch_8_train_98.37                  # Model checkpoint (receved best train accuracy of 98% in epoch 8 with test accracy of 91%)
+                                                      # Data was devided in four parts, "best_model_4_epoch_8_train_98.37" here 4 denotes that model is being trained on full dataset (60K images)
+├── Final submission csv file.csv                     # Final predictions for submission
+├── Final_model_traning_&prediction_&explanibility.ipynb  # Final training and inference notebook
+├── HackRush Report.pdf                                   # Technical report with methodology and analysis
+├── README.md                                             # Project documentation (this file)
 ```
 [As per the attached image and files][3].
 
@@ -118,8 +119,4 @@ For detailed methodology, results, and visualizations, refer to the [HackRush Re
 
 ---
 
-> “Grad-CAM visualizations confirm that the model learns interpretable and relevant features, focusing on meaningful regions to distinguish between AI-generated and real images.”[1][2]
-
-[1] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/51674128/5ef3957f-e142-4d13-ab5b-15fe7884101b/HackRush-Report.pdf
-[2] https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/51674128/dc7845e4-d3b8-45f2-8cf1-8a71e14dd373/README.md
-[3] https://pplx-res.cloudinary.com/image/private/user_uploads/51674128/dd1fc155-bffc-4594-bc6e-aa2d206cfc5a/image.jpg
+> “Grad-CAM visualizations confirm that the model learns interpretable and relevant features, focusing on meaningful regions to distinguish between AI-generated and real images.”
